@@ -136,6 +136,10 @@ console.log(instaUser);
     console.log(Object.entries(instaUser));
 
 // Object De-structure
+//read mdn
 
-// 4.25.0 hours javascript 1 video offline.
+
+//random user me api 
+// json formattor
+
 

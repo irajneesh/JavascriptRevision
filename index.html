@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    
+        <input type="text" placeholder="Enter name" id="11" name="username" required>
+        <input type="password" placeholder="enter password" required>
+        <button id="ent">login</button>
+</body>
+</html>
+<script >
+
+    document.getElementById("ent").addEventListener("click", function (){
+        var user = document.getElementById("11").value;
+        console.log(user);
+        if(user == null || user == undefined){
+            alert("please enter user name");
+        }else{
+            alert(`welcome ${user}`)
+        }
+        
+       
+    })
+    
+</script>
